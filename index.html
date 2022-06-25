@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Reto-Frontend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="/js/app.js"></script>
+    <script src="/js/item.js"></script>
+  </head>
+  <body>
+    <div class="content-principal">
+      <h1 class="title">Lista de usuarios</h1>
+      <app-users></app-users>
+    </div>
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">x</span>
+        <div class="card-user">
+          <div>
+            <img src="" alt="" id="img-usuario" />
+          </div>
+          <div>
+            <div class="item-text">
+              <p>Nombre:</p>
+              <p id="nombre"></p>
+            </div>
+            <div class="item-text">
+              <p>Apellido:</p>
+              <p id="apellido"></p>
+            </div>
+            <div class="item-text">
+              <p>Correo:</p>
+              <p id="correo"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/modal.js"></script>
+  </body>
+</html>
